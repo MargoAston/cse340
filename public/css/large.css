@@ -9,7 +9,7 @@ body {
 #wrapper {
     background-color: white;
     max-width: 90%;
-    max-height: 1000px;
+    
     padding: 10px;
     margin: 30px auto;
     border: solid #e8e7ec 7px;
@@ -43,5 +43,8 @@ main {
     grid-row: 2;
 }
 
-
+#inv-display {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+}
 }
